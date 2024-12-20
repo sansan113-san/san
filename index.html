@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style1.css">
+
+    <style>
+   html, body {
+            height: 100%;        /* 전체 창 높이 */
+            overflow: hidden;    /* 스크롤바 제거 */
+            cursor: url('bal.png')16 16, auto;
+        }
+.container {
+    display: flex;
+    flex-direction: column; /* 세로 배치 */
+    justify-content: 100vh; /* 상단 정렬 */
+    align-items: center;  /* 수평 중앙 정렬 */
+    height: 70vh;
+    background-color: #f4f4f454;
+}
+
+      .container2 {
+          display: flex;                  /* Flexbox 레이아웃 사용 */
+          flex-direction: column;         /* 세로 방향 배치 */
+          justify-content: center;        /* 수직 방향 중앙 정렬 */
+          align-items: center;            /* 수평 방향 중앙 정렬 */
+          height:35vh;                  /* 화면 높이 100% 사용 */
+          background-color: #f4f4f454;    /* 배경색 설정 */
+      }
+
+      .item {
+           position: relative;
+            right: -345px;
+            margin-top: auto;                  /* 외부 여백 */
+            height: 20vh;                       /* 텍스트 색상 */
+            border-radius: 5px;             /* 모서리 둥글게 */
+            text-align: right;             /* 텍스트 가운데 정렬 */
+        }
+    </style>    
+</head>
+
+
+<body>
+    <div class="container">
+        <header>
+          <p>
+            <img src="inside.png" width= 725 height= 536 alt="" style="margin-top: 10px" >
+          
+
+            <h1> 우리는 어느새 이곳에 있어 </h1>
+            <span> </span>
+            <h2> 저기로 나가자 </h2>
+            <span> </span>
+            <span> </span>
+          
+          </p>
+
+         
+        </header>
+    </div>
+
+    <div class="container2">
+      <div class="item">
+       <h3>  <a title="여기는 너무 추워" href="index2.html">밖으로.</a>  </h3>
+      </div>
+
+    </div>
+
+
+    
+
+</body>
+</html>

@@ -1,0 +1,39 @@
+body {
+    background-color: black;
+    margin: 0; /* 기본 마진 제거 */
+    padding: 0; /* 기본 패딩 제거 */
+}
+
+.moirai-one-regular {
+    font-family: "Moirai One", serif;
+    font-weight: 400;
+    font-style: normal;}
+
+    span {
+        font-family: "Moirai One", serif;
+        color: rgb(255, 255, 243);
+        opacity: 0;
+        transition: opacity ease-in 200ms;
+        transition-delay: 120ms;
+        font-size: 48px;
+        margin: 10px;
+        white-space: normal;
+    
+    }
+    
+    span:hover {
+        opacity: 0.9;
+        transition: opacity 50ms linear;
+    }
+
+
+
+marquee{
+    font-family: "Moirai One", serif;
+    color: rgb(255, 249, 252);
+    font-size: 30pt;
+    background-color:seashell;
+
+
+
+}

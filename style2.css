@@ -1,0 +1,19 @@
+body, html {
+    margin: 100;
+    padding: 0;
+    height: 1000%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column; /* 세로 배치 */
+    justify-content: flex-start; /* 상단 정렬 */
+    align-items: center;  /* 수평 중앙 정렬 */
+    height: 1000vh;
+    background-color: #f4f4f4;
+}
+
+header {
+    margin-top: 20rem; /* 상단에서 여백 */
+    color: #0073a6;
+}
